@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#mainnav {
+	display: none;
+	width: 100%;
+}
+
+#headerdiv {
+	display: inline-block;
+	width: auto;
+	float: right;
+}
+#menubars:hover {
+	display: inline-block;
+	width: 100%;
+	background-color: #333333;
+
+}
+
+#menubars {
+	float: left;
+}
+
+#content {
+	display: block;
+	clear: both;
+}
+img {
+	width: 2em;
+	height: 2em;
+}
+
+#menubars:hover nav {
+	display: block;
+}
+
+#mainnav ul {
+	list-style-type: none;
+	width: 100%;
+	background-color: #aaaaaa;
+}
+
+#mainnav ul li {
+	width: 100%;
+	height: 2.5em;
+	color: #ffffff;
+	margin-left: 1em;
+}
