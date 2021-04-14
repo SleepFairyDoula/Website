@@ -6,9 +6,38 @@
 	margin: 0px;
 }
 
+#sfdnav {
+	color: #fff;
+	background-color: #0b0150;
+	font-size: 2em;
+	font-family: 'Great Vibes', cursive;
+}
+
+#navbarSupportedContent {
+	background-color: #0b0150;
+}
+
+#mainnav {
+	background-color: #0b0150;
+	height: 4em;
+}
+
+#navlist {
+}
+
 #navlist li a {
-	color: #0b0140;
-	background-color: #f9adac;
+	color: #aaa;
+	background-color: #0b0150;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+.silver-back {
+	background-color: #cccccc;
+}
+
+.silver-back p {
+	background-color: #cccccc;
 }
 
 .section {
@@ -30,6 +59,14 @@
 
 }
 
+.story-pic {
+	width: 100%;
+	height: auto;
+}
+
+article {
+	margin-bottom: 10em;
+}
 .top-row {
 	background-color: #d89c9b;
 }
