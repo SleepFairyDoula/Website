@@ -1,31 +1,49 @@
 * {
 	color: #0b0170;
 	border-color: #dcc285;
-	background-color: #f9adac;
+/*	background-color: #f9adac;*/
 	padding: 0px;
 	margin: 0px;
 }
 
+.pink {
+	background-color: #f9adac;
+}
+
+/*this is the title in the navbar*/
 #sfdnav {
 	color: #fff;
 	background-color: #0b0150;
 	font-size: 2em;
 	font-family: 'Great Vibes', cursive;
+	padding-left: 1em;
 }
 
+/*this is the div holding nav header ul*/
 #navbarSupportedContent {
 	background-color: #0b0150;
 }
 
+/*this is the div that hold the entire nav bar*/
 #mainnav {
 	background-color: #0b0150;
 	height: 4em;
 }
 
-#navlist {
+/*this is the ul for the nav*/
+#navlist { 
+	background-color: #0b0150;
 }
 
+/*these are the individual li's for the nav ul*/
+#navlist li { 
+	background-color: #0b0150;
+	margin-right: 1em;
+}
+
+/*these are the anchors in the navbar*/
 #navlist li a {
+	max-height: 4em;
 	color: #aaa;
 	background-color: #0b0150;
 	font-family: 'Raleway', sans-serif;
@@ -42,10 +60,17 @@
 
 .section {
 	margin: 2em 0em 7em 0em;
+	background-image: linear-gradient(to left, #eee, #bbb);
+	padding: 1em;
+}
+
+.section p {
+	background: ;
 }
 
 .top-pic {
 	width: 100%;
+	vertical-align: middle;
 }
 
 .left-pic {
@@ -56,6 +81,7 @@
 .article-top-pic {
 	max-width: 100%;
 	height: auto;
+	vertical-align: middle;
 
 }
 
@@ -69,4 +95,14 @@ article {
 }
 .top-row {
 	background-color: #d89c9b;
+}
+
+.bottom-row {
+	color: #aaa;
+	background-color: #0b0150;
+	font-family: 'Raleway', sans-serif;
+}
+
+.bottom-row p {
+	color: #aaa;
 }

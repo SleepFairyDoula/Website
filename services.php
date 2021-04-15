@@ -3,7 +3,7 @@
 <?php include('nav.php'); ?>
 
   
-<div class="container-fluid">
+<div class="container-fluid pink">
 	<div class="col-sm-2"></div>
 	<div id="content" class="col-sm-8 text-center">
 		<div class="row">

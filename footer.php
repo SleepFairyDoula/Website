@@ -4,5 +4,6 @@
 		<p>It could be social media contacts</p>
 		<p>or it could be links to friends pages such as</p>
 		<p>or it could just not exist...</p>
+		<a href="#mainnav">Back to Top</a>
 	</div>
 </footer>

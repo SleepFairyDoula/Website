@@ -1,22 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>Sleepy Fairy Doula</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Sleepy Fairy Doula commercial page">
-	<meta name="keywords" content="Sleepy Fairy Doula, doula, birth, baby, postpartum, newborn, pregnancy, prenatal">
 <?php include('head.php'); ?>
 <body>
 <?php include('nav.php'); ?>
 
   
-<div class="container-fluid">
+<div class="container-fluid pink">
 	<div class="col-sm-2"></div>
 	<div id="content" class="col-sm-8 text-center">
 		<div class="meet">
 			<img src="royan.jpg" />
-			<div class="silver-back">
+			<div class="section">
 				<p>
 					This would be a little bit about you but instead its just more lorem ipsum
 				</p>
