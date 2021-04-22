@@ -1,11 +1,11 @@
 <?php include('head.php'); ?>
-<body>
+<?php include('body.php'); ?>
 <?php include('nav.php'); ?>
   
-<div class="container-fluid pink">
+<main role="main" class="container-fluid">
 	<div class="row">
 		<div class="col-sm-2"></div>
-		<div id="content" class="col-sm-8 text-center">
+		<div id="content" class="col-md-8 text-center">
 			<img src="img1.jpg" class="top-pic">
 			<div class="section">
 				<p>A doula (/ˈduːlə/) is a trained companion who is not a healthcare professional and who supports another individual (the doula's client) through a significant health-related experience, such as childbirth, miscarriage, induced abortion or stillbirth, or non-reproductive experiences such as dying. A doula may also provide support to the client's partner, family, and friends. The doula's goal, and role, is to help the client feel safe and comfortable, complementing the role of the healthcare professionals who provide the client's medical care.
@@ -21,7 +21,7 @@
 		</div>
 		<div class="col-sm-2"></div>
 	</div>
-</div>
+</main>
 <?php include('footer.php'); ?>
 
 </body>

@@ -1,9 +1,9 @@
 <?php include('head.php'); ?>
-<body>
+<?php include('body.php'); ?>
 <?php include('nav.php'); ?>
 
   
-<div class="container-fluid pink">
+<main role="main" class="container-fluid">
 	<div class="col-sm-2"></div>
 	<div id="content" class="col-sm-8 text-center">
 		<div class="meet">
@@ -22,7 +22,7 @@
 		</div>
 	</div>
 	<div class="col-sm-2"></div>
-</div>
+</main>
 <footer class="bottom-row">
 	<div class="text-center">
 		<p>This is where your footer would go</p>

@@ -1,10 +1,10 @@
 <?php include('head.php'); ?>
-<body>
+<?php include('body.php'); ?>
 <?php include('nav.php'); ?>
   
-<div class="container-fluid">
+<main role="main" class="container-fluid">
 Content goes here!
-</div>
+</main>
 
 
 

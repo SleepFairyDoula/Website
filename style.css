@@ -6,14 +6,20 @@
 	margin: 0px;
 }
 
-.pink {
-	background-color: #f9adac;
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	background-color: #ffcdcc;
+	margin-bottom: 15em;
 }
 
 /*this is the title in the navbar*/
 #sfdnav {
 	color: #fff;
-	background-color: #0b0150;
+	background-color: #822;
 	font-size: 2em;
 	font-family: 'Great Vibes', cursive;
 	padding-left: 1em;
@@ -21,23 +27,23 @@
 
 /*this is the div holding nav header ul*/
 #navbarSupportedContent {
-	background-color: #0b0150;
+	background-color: #822;
 }
 
 /*this is the div that hold the entire nav bar*/
 #mainnav {
-	background-color: #0b0150;
+	background-color: #822;
 	height: 4em;
 }
 
 /*this is the ul for the nav*/
 #navlist { 
-	background-color: #0b0150;
+	background-color: #822;
 }
 
 /*these are the individual li's for the nav ul*/
 #navlist li { 
-	background-color: #0b0150;
+	background-color: #822;
 	margin-right: 1em;
 }
 
@@ -45,10 +51,13 @@
 #navlist li a {
 	max-height: 4em;
 	color: #aaa;
-	background-color: #0b0150;
-	font-family: 'Raleway', sans-serif;
+	background-color: #822;
+	font-family: 'Cinzel', serif;
 }
 
+main {
+	padding-bottom: 6em;
+}
 
 .silver-back {
 	background-color: #cccccc;
@@ -66,6 +75,7 @@
 
 .section p {
 	background: ;
+	font-family: 'Cormorant Garamond', serif;
 }
 
 .top-pic {
@@ -98,11 +108,46 @@ article {
 }
 
 .bottom-row {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 15em;
 	color: #aaa;
-	background-color: #0b0150;
+	background-color: #333;
 	font-family: 'Raleway', sans-serif;
+	padding-top: 1.5em;
+	padding-bottom: 1em;
+	padding-left: 2em;
 }
 
-.bottom-row p {
+.footer-list li a {
+	color: #ccc;
+}
+
+.foot-social {
+	height: 1.5em;
+}
+
+.bottom-row a {
+	margin-right: 2em;
 	color: #aaa;
+}
+
+.bottom-row img {
+	margin-right: .5em;
+}
+
+/*div for social links in the footer*/
+.footer-connect {
+	background-color: #333;
+}
+
+.footer-connect h2, .footer-list-title {
+	color: #aaa;
+	font-family: 'Ruthie', cursive;
+}
+
+.footer-connect a {
+	color: #fcc;
+	line-height: 2em;
 }
