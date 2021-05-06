@@ -12,8 +12,8 @@
 		<div class="col-sm footer-connect">
 			<h2>Connect</h2>
 			<ul>
-				<li><a href="instagram.com"><img src="media/instagram.png" class="foot-social" />Instagram</a></li>
-				<li><a href="facebook.com"><img src="media/facebook.png" class="foot-social" />Facebook</a></li>
+				<li><a href="https://www.instagram.com/metropolitandoulas/"><img src="media/instagram.png" class="foot-social" />Instagram</a></li>
+				<li><a href="https://www.facebook.com/metropolitandoulas"><img src="media/facebook.png" class="foot-social" />Facebook</a></li>
 				<li><a href="twitter.com"><img src="media/twitter.png" class="foot-social" />Twitter</a></li>
 				<li><a href="linkdin.com"><img src="media/linkedin.png" class="foot-social" />Linkedin</a></li>
 			</ul>

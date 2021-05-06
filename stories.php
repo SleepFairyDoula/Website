@@ -8,7 +8,7 @@
 	<div id="content" class="col-sm-8 text-center">
 		<article>
 			<div class="col-sm-4">
-				<img src="img4.jpg" class="story-pic">
+				<img src="media/img4.jpg" class="story-pic">
 			</div>
 			<div class="col-sm-8">
 				<p>
@@ -21,7 +21,7 @@
 		</article>
 		<article>
 			<div class="col-sm-4">
-				<img src="img4.jpg" class="story-pic">
+				<img src="media/.jpg" class="story-pic">
 			</div>
 			<div class="col-sm-8">
 				<p>
@@ -34,7 +34,7 @@
 		</article>
 		<article>
 			<div class="col-sm-4">
-				<img src="img4.jpg" class="story-pic">
+				<img src="media/img4.jpg" class="story-pic">
 			</div>
 			<div class="col-sm-8">
 				<p>

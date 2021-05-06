@@ -1,5 +1,17 @@
+/*
+Fonts
+	'Sacramento', sans-serif;
+	'Great Vibes', cursive;
+	'Raleway', sans-serif;
+	'Cinzel', serif;
+
+*/
+
+:root {
+	--columns: 2
+}
 * {
-	color: #0b0170;
+	color: #555;
 	border-color: #dcc285;
 /*	background-color: #f9adac;*/
 	padding: 0px;
@@ -67,6 +79,19 @@ main {
 	background-color: #cccccc;
 }
 
+.divide {
+	background-image: linear-gradient(to left, #eee, #bbb);
+	padding: .5em;
+	align-content: center;
+	justify-content: center;
+}
+
+.divide h3 {
+	text-align: center;
+	font-family: 'Great Vibes', cursive;
+	font-size: 2.5em;
+}
+
 .section {
 	margin: 2em 0em 7em 0em;
 	background-image: linear-gradient(to left, #eee, #bbb);
@@ -105,7 +130,67 @@ article {
 }
 .top-row {
 	background-color: #d89c9b;
+	width: 100%;
+	height: auto;
+	position: absolute;
 }
+
+#toptop {
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+
+#call {
+	position: absolute;
+	vertical-align: middle;
+	left: auto;
+	right: auto;
+	text-align: center;
+	border: solid;
+	border-width: .5em;
+	border-color: #da9;
+	background-color: rgba(256, 200, 200, .5);
+}
+
+#call h1 {
+	color: #555;
+	margin-top: 1em;
+	margin-right: 1em;
+	margin-left: 1em;
+	font-family: 'Raleway', sans-serif;
+}
+
+#call h2 {
+	margin-bottom: 1em;
+	margin-right: 1em;
+	margin-left: 1em;
+	font-family: 'Sacramento', sans-serif;
+	color: #fff;
+	font-size: 3em;
+}
+
+.box-pic img {
+	width: 100%;
+	height: auto;
+}
+
+.box-back {
+	width: calc(100% / var(--columns));
+	float: left;
+	position: relative;
+	padding-bottom: calc(100% / var(--columns));
+	justify-content: center;
+	align-items: center;
+}
+
+.box-content {
+	/*width: calc(100% / var(--columns));
+	height: calc(100% / var(--columns));*/
+	position: absolute;
+}
+
+/*footer stuff here*********/
 
 .bottom-row {
 	position: absolute;

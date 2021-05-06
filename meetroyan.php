@@ -7,7 +7,7 @@
 	<div class="col-sm-2"></div>
 	<div id="content" class="col-sm-8 text-center">
 		<div class="meet">
-			<img src="royan.jpg" />
+			<img src="media/royan.jpg" />
 			<div class="section">
 				<p>
 					This would be a little bit about you but instead its just more lorem ipsum
