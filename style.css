@@ -8,7 +8,7 @@ Fonts
 */
 
 :root {
-	--columns: 2
+	--columns: 4
 }
 * {
 	color: #555;
@@ -182,12 +182,35 @@ article {
 	padding-bottom: calc(100% / var(--columns));
 	justify-content: center;
 	align-items: center;
+	max-height: calc(100% / var(--columns));
 }
 
 .box-content {
 	/*width: calc(100% / var(--columns));
 	height: calc(100% / var(--columns));*/
 	position: absolute;
+
+}
+
+.box-content div {
+	max-height: calc(100% / var(--columns));
+	overflow: hidden;
+	position: absolute;
+}
+
+.tile {
+	width: 25vw;
+	height: 25vw;
+	overflow: hidden;
+	overflow-y: auto;
+	vertical-align: ;
+	justify-content: center;
+	align-items: center;
+}
+
+.tile img {
+	width:100%;
+	height:100%;
 }
 
 /*footer stuff here*********/
@@ -205,6 +228,9 @@ article {
 	padding-left: 2em;
 }
 
+.footer-list {
+	list-style
+}
 .footer-list li a {
 	color: #ccc;
 }
@@ -229,7 +255,7 @@ article {
 
 .footer-connect h2, .footer-list-title {
 	color: #aaa;
-	font-family: 'Ruthie', cursive;
+	font-family: 'Sacramento', sans-serif;
 }
 
 .footer-connect a {

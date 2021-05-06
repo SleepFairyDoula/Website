@@ -1,8 +1,8 @@
 <footer class="footer bottom-row">
 	<div class="row">
 		<div class="col-sm-4">
-			<h2 class="footer-list-title">Sleepy Fairy Doula</h2>
-			<ul class="footer-list">
+			<h2 class="footer-list-title">Sleep Fairy Doula</h2>
+			<ul class="footer-list list-unstyled">
 				<li><a href="#">Which</a></li>
 				<li><a href="#">Links</a></li>
 				<li><a href="#">You</a></li>
@@ -11,7 +11,7 @@
 		</div>
 		<div class="col-sm footer-connect">
 			<h2>Connect</h2>
-			<ul>
+			<ul class="list-unstyled">
 				<li><a href="https://www.instagram.com/metropolitandoulas/"><img src="media/instagram.png" class="foot-social" />Instagram</a></li>
 				<li><a href="https://www.facebook.com/metropolitandoulas"><img src="media/facebook.png" class="foot-social" />Facebook</a></li>
 				<li><a href="twitter.com"><img src="media/twitter.png" class="foot-social" />Twitter</a></li>
