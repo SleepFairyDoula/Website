@@ -1,1 +1,1 @@
-<body class="lpink">
+<body>
