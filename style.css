@@ -4,6 +4,7 @@ Fonts
 	'Great Vibes', cursive;
 	'Raleway', sans-serif;
 	'Cinzel', serif;
+	'Courgette', cursive;
 
 */
 
@@ -93,14 +94,42 @@ main {
 }
 
 .section {
-	margin: 2em 0em 7em 0em;
-	background-image: linear-gradient(to left, #eee, #bbb);
+	margin: 2em 0em 4em 0em;
+	/*background-image: linear-gradient(to left, #eee, #bbb);*/
 	padding: 1em;
+	height: 300px;
+	display: block;
 }
 
-.section p {
-	background: ;
-	font-family: 'Cormorant Garamond', serif;
+.section img {
+	float: left;
+	height: 100%;
+}
+
+.section div {
+	overflow-y: hidden;
+	max-height: 150px;
+}
+
+.section div p {
+	padding-left: 2em;
+}
+
+a.readmore {
+	padding-left: 2em;
+}
+
+button.readmore {
+	background-color: #555;
+	color: #fff;
+	margin-left: 1em;
+}
+
+
+.section-article {
+	font-family: 'Courgette', cursive;
+	font-size: 1.5rem;
+	padding-left: 2em;
 }
 
 .top-pic {
@@ -382,4 +411,12 @@ article {
 
 .lefty {
 	text-align: left;
+}
+
+.carousel {
+	background-image: url(media/3x2/img5.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 400px;
 }
